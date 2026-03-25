@@ -15,23 +15,13 @@ using System.Windows.Shapes;
 namespace P20260311
 {
     /// <summary>
-    /// Interaction logic for menuablak.xaml
+    /// Interaction logic for ujauto.xaml
     /// </summary>
-    public partial class menuablak : Window
+    public partial class ujauto : Window
     {
-        public menuablak()
+        public ujauto()
         {
             InitializeComponent();
-        }
-
-        private void bezar(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
-        private void Uj_auto(object sender, RoutedEventArgs e)
-        {
-            ujauto uj= new ujauto();
-            uj.Show();
         }
     }
 }

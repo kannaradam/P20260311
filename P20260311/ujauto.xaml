@@ -1,11 +1,11 @@
-﻿<Window x:Class="P20260311.menuablak"
+﻿<Window x:Class="P20260311.ujauto"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:P20260311"
         mc:Ignorable="d"
-        Title="Autókereskedés" Height="450" Width="800">
+        Title="ujauto" Height="450" Width="400">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10"/>
@@ -20,26 +20,7 @@
             <RowDefinition/>
             <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
-        <Menu  Grid.Column="1" Grid.Row="1" Height="20" Width="180" Margin="0,0,30,0">
-            <MenuItem Header="File">
-                <MenuItem Header="Beolvasás"/>
-                <MenuItem Header="Mentés"/>
-                <MenuItem Header="Kilépés" Click="bezar"/>
-            </MenuItem>
-            
-            <MenuItem Header="Autók">
-                <MenuItem Header="Használt"/>
-                <MenuItem Header="Új autó rögzítése"  Click="Uj_auto"/>
-            </MenuItem>
 
-            <MenuItem Header="Lekérdezések">
-                <MenuItem Header="Használt"/>
-                <MenuItem Header="Új autó rögzítése"/>
-            </MenuItem>
-
-
-
-        </Menu>
-        
+        <Label Content="Új autó" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center" FontSize="30"/>
     </Grid>
 </Window>
